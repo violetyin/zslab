@@ -1,0 +1,28 @@
+{
+  "rewrites": [
+    {
+      "source": "/",
+      "has": [{ "type": "header", "key": "x-vercel-ip-country", "value": "CN" }],
+      "destination": "/index.html"
+    },
+    {
+      "source": "/",
+      "has": [{ "type": "header", "key": "x-vercel-ip-country", "value": "HK" }],
+      "destination": "/index.html"
+    },
+    {
+      "source": "/",
+      "has": [{ "type": "header", "key": "x-vercel-ip-country", "value": "MO" }],
+      "destination": "/index.html"
+    },
+    {
+      "source": "/",
+      "has": [{ "type": "header", "key": "x-vercel-ip-country", "value": "TW" }],
+      "destination": "/index.html"
+    },
+    {
+      "source": "/",
+      "destination": "/en/index.html"
+    }
+  ]
+}
